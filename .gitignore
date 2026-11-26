@@ -1,0 +1,5 @@
+sarcasm2/
+__pycache__/
+*.pyc
+.vscode/
+results/llama_preds_*.csv

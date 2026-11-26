@@ -1,0 +1,82 @@
+[
+  {
+    "dataset": "sarcasm",
+    "model": "LogReg (full test)",
+    "accuracy": 0.7537960954446855,
+    "precision": 0.7710280373831776,
+    "recall": 0.7189542483660131,
+    "f1": 0.7440811724915445,
+    "n": 1844,
+    "roc_auc": 0.8206108217224974
+  },
+  {
+    "dataset": "humor",
+    "model": "LogReg (full test)",
+    "accuracy": 0.937625,
+    "precision": 0.9369913625243397,
+    "recall": 0.93835,
+    "f1": 0.9376701891128931,
+    "n": 40000,
+    "roc_auc": 0.9835982375
+  },
+  {
+    "dataset": "sarcasm->humor",
+    "model": "LogReg (transfer)",
+    "accuracy": 0.49555,
+    "precision": 0.49736608464042614,
+    "recall": 0.8403,
+    "f1": 0.6248745119910764,
+    "n": 40000,
+    "roc_auc": 0.5680119025
+  },
+  {
+    "dataset": "humor->sarcasm",
+    "model": "LogReg (transfer)",
+    "accuracy": 0.49783080260303686,
+    "precision": 0.4976905311778291,
+    "recall": 0.9389978213507625,
+    "f1": 0.6505660377358491,
+    "n": 1844,
+    "roc_auc": 0.4797204458937403
+  },
+  {
+    "dataset": "sarcasm",
+    "model": "LogReg (LLM subset)",
+    "accuracy": 0.768,
+    "precision": 0.7794117647058824,
+    "recall": 0.7449799196787149,
+    "f1": 0.7618069815195072,
+    "n": 1000,
+    "roc_auc": 0.8365653850461606
+  },
+  {
+    "dataset": "sarcasm",
+    "model": "Llama-3.1-8B zero-shot",
+    "accuracy": 0.674,
+    "precision": 0.6131578947368421,
+    "recall": 0.9357429718875502,
+    "f1": 0.7408585055643879,
+    "n": 1000,
+    "roc_auc": 0.8091629466071457
+  },
+  {
+    "dataset": "humor",
+    "model": "LogReg (LLM subset)",
+    "accuracy": 0.926,
+    "precision": 0.9311740890688259,
+    "recall": 0.92,
+    "f1": 0.9255533199195171,
+    "n": 1000,
+    "roc_auc": 0.9799199999999999
+  },
+  {
+    "dataset": "humor",
+    "model": "Llama-3.1-8B zero-shot",
+    "accuracy": 0.795,
+    "precision": 0.7446102819237148,
+    "recall": 0.898,
+    "f1": 0.814143245693563,
+    "n": 1000,
+    "roc_auc": 0.8825339999999999
+  }
+]
